@@ -19,12 +19,12 @@
     },
     "AUTO_READ_STATUS": {
       "description": "Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value": "no",
-      "required": false
+      "value": "yes",
+      "required": true 
     },
     "AUTO_DOWNLOAD_STATUS": {
       "description": "Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "PM_PERMIT": {
@@ -35,17 +35,17 @@
     "BOT_NAME": {
       "description": "put A name for your bot",
       "value": "Zokou-MD",
-      "required": false
+      "required": true
     },
     "BOT_MENU_LINKS": {
       "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
       "value": "https://i.pinimg.com/736x/0a/70/6f/0a706f90d6a1fb39919aedfbb7fdd8d3.jpg",
-      "required": false
+      "required": true
     },
     "PUBLIC_MODE": {
       "description": "type yes to put your bot on public mode or no to put it on private mod",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "HEROKU_APY_KEY": {
       "description": "insert your heroku api-key (this is optionnal)",
@@ -62,17 +62,17 @@
     },
     "OWNER_NAME": {
       "desc": "Your Name",
-      "required": false,
+      "required": true,
       "value": "lukas+izmael"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
-      "required": false,
+      "required":true,
       "value": "252682642802"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commandes",
-      "required": false,
+      "required": true,
       "value": "3"
     },
     "STARTING_BOT_MESSAGE": {
@@ -83,7 +83,7 @@
     "PRESENCE": {
       "description": "Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
       "value": "typing",
-      "required": false
+      "required": true
     },
     "PM_CHATBOT": {
       "description": "Put yes if you want the bot to automatically respond to messages in private",
